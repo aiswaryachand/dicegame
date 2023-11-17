@@ -1,0 +1,52 @@
+.card
+{
+transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+display:flex;
+flex-direction: column;
+flex:auto;
+margin:auto;
+padding: 30px;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.col
+{
+ display: flex;
+ flex-direction: column;
+ flex: auto;
+ align-items: center;
+ justify-content: center;
+}
+.random-images
+{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+}
+#player
+{
+    margin: auto;
+
+}
+.reset
+{
+    padding:10px 20px ;
+    border: 1px silver;
+    border-radius: 10 px;
+    background-color:palevioletred;
+    color: honeydew;
+}
+.rollnow{
+  padding:10px 20px ;
+    border: 1px skyblue;
+      background-color: darkgreen;
+    color:white;
+}
